@@ -23,7 +23,7 @@ acent color: #2196F3;
 }
 body {
     background-color: var(--white-color);
-    font-family: var(--main-font);
+    font-family: var(--main-font), sans-serif;
     color: var(--titles-color);
     padding: 0;
     margin: 0;
@@ -95,7 +95,6 @@ ul {
 }
 
 .nav-link {
-    font-style: var(--font-normal);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -118,7 +117,6 @@ ul {
 }
 
 .contact-item {
-font-style: var(--font-normal);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -144,8 +142,6 @@ font-style: var(--font-normal);
 }
 
 .hero-title {
-    font-style: var(--font-normal);
-    font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
@@ -174,6 +170,8 @@ font-style: var(--font-normal);
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+
 
 }
 
@@ -203,8 +201,6 @@ font-style: var(--font-normal);
 }
 
 .hilites-title {
-    font-style: var(--font-normal);
-    font-weight: var(--weight-bold);
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -214,7 +210,6 @@ font-style: var(--font-normal);
 }
 
 .hilites-list p {
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -229,8 +224,6 @@ font-style: var(--font-normal);
     margin: 0;
     text-align: center;
     margin-bottom: 50px;
-    font-style: normal;
-    font-weight: var(--weight-bold);
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -264,8 +257,6 @@ font-style: var(--font-normal);
 .team-title {
     text-align: center;
     margin: 0;
-    font-style: var(--font-normal);
-    font-weight: var(--weight-bold);
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -301,8 +292,6 @@ font-style: var(--font-normal);
 }
 
 .member-position {
-    font-style: var(--font-normal);
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -340,7 +329,6 @@ font-style: var(--font-normal);
 
 .address {
     font-style: var(--font-normal);
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -349,7 +337,6 @@ font-style: var(--font-normal);
 
 .footer-contact {
     font-style: var(--font-normal);
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -380,8 +367,6 @@ font-style: var(--font-normal);
     margin: 0 4px;
     background: #F5F4FA;
     border-radius: 4px;
-    font-style: var(--font-normal);
-    font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
@@ -389,6 +374,7 @@ font-style: var(--font-normal);
     color: var(--titles-color);
     border: none;
     padding: 6px 22px;
+    cursor: pointer;
 }
 
 .buttons:hover {
@@ -422,8 +408,6 @@ font-style: var(--font-normal);
 }
 
 .works-title {
-    font-style: var(--font-normal);
-    font-weight: var(--weight-bold);
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
@@ -432,8 +416,6 @@ font-style: var(--font-normal);
 }
 
 .works-text {
-    font-style: var(--font-normal);
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
