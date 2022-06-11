@@ -92,13 +92,6 @@ body {
 }
 
 
-
-
-.curent-link:hover,
-.curent-link:focus {
-    color: var(--titles-color);
-}
-
 .logo-link {
     text-decoration: none;
     font-family: var(--second-font);
@@ -111,8 +104,6 @@ body {
 }
 
 
-
-
 .logo-studio {
     color: var(--black-color);
 }
@@ -121,6 +112,11 @@ body {
 .nav-link:focus {
     color: var(--acent-color);
     cursor: pointer;
+}
+
+.curent-link:hover,
+.curent-link:focus {
+    color: var(--titles-color);
 }
 
 .contact-list {
