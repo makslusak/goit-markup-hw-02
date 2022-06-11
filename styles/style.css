@@ -14,13 +14,16 @@ acent color: #2196F3;
     --titles-color: #212121;
     --acent-color: #2196F3;
     --text-color: #757575;
+    --grey-color: #F5F4FA;
     --footer-color: #2F303A;
     --white-color: #ffffff;
+    --black-color: #000000;
     --font-normal: normal;
     --weight-bold: 700;
 
 
 }
+
 body {
     background-color: var(--white-color);
     font-family: var(--main-font), sans-serif;
@@ -30,16 +33,16 @@ body {
     
 }
 
-p {
+.par {
     margin: 0;
     
 }
 
-a {
+.links {
     text-decoration: none;
 }
 
-ul {
+.lists {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -68,42 +71,54 @@ ul {
 }
 
 
-.logo-link {
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-style: var(--font-normal);
-     font-weight: var(--weight-bold);
-    font-size: 26px;
-    line-height: 31px;
-    margin: 25px 93px 25px 215px;
-    letter-spacing: 0.03em;
-}
 
-
-.logo-web {
-    color: var(--acent-color);
-        
-}
-
-.logo-studio {
-     color: #000000;
-}
 
 .logo-link:hover,
 .logo-link:focus {
-    opacity: 60%;
+    color: var(--acent-color);
 }
 
 .nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--titles-color);
    margin: 0px 50px 32px 0px;
 }
 
-.nav-link:hover,.nav-link:focus {
+.curent-link {
+    color: var(--acent-color);
+}
+
+
+
+
+.curent-link:hover,
+.curent-link:focus {
+    color: var(--titles-color);
+}
+
+.logo-link {
+    text-decoration: none;
+    font-family: var(--second-font);
+    font-style: var(--font-normal);
+    font-weight: var(--weight-bold);
+    font-size: 26px;
+    margin: 25px 93px 25px 215px;
+    letter-spacing: 0.03em;
+    color: var(--acent-color);
+}
+
+
+
+
+.logo-studio {
+    color: var(--black-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
     color: var(--acent-color);
     cursor: pointer;
 }
@@ -119,7 +134,7 @@ ul {
 .contact-item {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     margin-right: 50px;
     color: var(--text-color);
@@ -127,7 +142,6 @@ ul {
 
 .contact-item:hover,.contact-item:focus {
     color: var(--acent-color);
-    cursor: pointer;
 }
 
 
@@ -143,7 +157,7 @@ ul {
 
 .hero-title {
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
      text-transform: uppercase;
@@ -156,7 +170,7 @@ ul {
     font-style: var(--font-normal);
     font-weight: var(--weight-bold);
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     display: flex;
     align-items: center;
      text-align: center;
@@ -202,7 +216,7 @@ ul {
 
 .hilites-title {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--titles-color);
@@ -211,7 +225,7 @@ ul {
 
 .hilites-list p {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 
     color: var(--text-color);
@@ -225,7 +239,7 @@ ul {
     text-align: center;
     margin-bottom: 50px;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -243,14 +257,11 @@ ul {
     margin: 0 15px;
 }
 
-.tasks-item:hover, .tasks-item:focus {
-    opacity: 50%;
-}
 
 /* Team */
 
 .team-section {
-    background-color: #F5F4FA;
+    background-color: var(--grey-color);
     padding: 94px 215px;
 }
 
@@ -258,7 +269,7 @@ ul {
     text-align: center;
     margin: 0;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
@@ -284,7 +295,7 @@ ul {
     font-style: var(--font-normal);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--titles-color);
     margin: 30px 0 10px 0;
@@ -293,7 +304,7 @@ ul {
 
 .member-position {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
@@ -309,19 +320,21 @@ ul {
 }
 
 .footer-web {
+    font-family: var(--second-font);
     font-style: var(--font-normal);
     font-weight: var(--weight-bold);
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--acent-color);
 }
 
 .footer-studio {
+    font-family: var(--second-font);
     font-style: var(--font-normal);
     font-weight: var(--weight-bold);
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--white-color);
 
@@ -330,7 +343,7 @@ ul {
 .address {
     font-style: var(--font-normal);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--white-color);
 }
@@ -338,20 +351,28 @@ ul {
 .footer-contact {
     font-style: var(--font-normal);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-hover:hover {
-    opacity: 50%;
+    color: var(--acent-color);
 }
 
+.footer-hover:focus {
+    color: var(--acent-color);
+
+}
 
 /* Portfolio styles */
 
 .main {
     background-color: var(--white-color);
+}
+
+.portfolio-title {
+    display: none;
 }
 
 /* Buttons */
@@ -364,8 +385,10 @@ ul {
 }
 
 .buttons {
+    font-family: var(--main-font);
+    font-weight: var(--font-normal);
     margin: 0 4px;
-    background: #F5F4FA;
+    background: var(--grey-color);
     border-radius: 4px;
     font-size: 16px;
     line-height: 26px;
@@ -377,14 +400,14 @@ ul {
     cursor: pointer;
 }
 
-.buttons:hover {
-    background: #2196F3;
+.buttons:hover, .buttons:focus {
+    background: var(--acent-color);
      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     font-style: var(--font-normal);
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--white-color);
@@ -407,9 +430,13 @@ ul {
     border: 1px solid #EEEEEE;
 }
 
+.works-img {
+    width: 370px;
+}
+
 .works-title {
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--titles-color);
     margin: 20px 0 4px 24px;
@@ -417,7 +444,7 @@ ul {
 
 .works-text {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 0.19;
     letter-spacing: 0.03em;
     color: var(--text-color);
     margin: 0 0 20px 24px;
