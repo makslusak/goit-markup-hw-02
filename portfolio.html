@@ -15,119 +15,112 @@
     </head>
 
     <body>
-        <!--Header-->
+        <!--Header------------------------------------------------------->
         <header class="header">
-            <nav class="header-nav">
-                <a href="./" class="nav-link links logo-link">
-                    <span class="logo-web">Web</span><span class="logo-studio">studio</span></a>
-                <ul class="nav-list lists">
+            <nav class="header__nav">
+                <a href="./" class="links logo-link">Web<span class="logo-studio">studio</span>
+                </a>
+                <ul class="header__nav-list lists">
                     <li>
-                        <a href="./" class="nav-link links">Студия</a>
+                        <a href="./" class="links header__nav-link">Студия</a>
                     </li>
                     <li>
-                        <a href="./portfolio.html" class="nav-link links curent-link">Портфолио</a>
+                        <a href="./portfolio.html" class="links header__nav-link curent-link">Портфолио</a>
                     </li>
                     <li>
-                        <a href="" class="nav-link links">Контакты</a>
+                        <a href="" class="links header__nav-link">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="contact-list lists">
+            <ul class="header__contact-list lists">
                 <li>
-                    <a href="mailto:info@devstudio.com" class="contact-item links"
-                        >info@devstudio.com</a
-                    >
+                    <a href="mailto:info@devstudio.com" class="links header__contact-item">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380961111111" class="contact-item links">+380961111111</a>
+                    <a href="tel:+380961111111" class="links header__contact-item">+380961111111</a>
                 </li>
             </ul>
         </header>
-        <!--Main content-->
+        <!--Main content-------------------------------------------------->
         <main class="main">
-            <!-- Buttons -->
+            <!-- Buttons ------------------------------------------------->
             <section>
-                <h1 class="portfolio-title">Портфолио</h1>
-                <ul class="btn-list lists">
-                    <li><button type="button" class="buttons">Все</button></li>
-                    <li><button type="button" class="buttons">Веб-сайты</button></li>
-                    <li><button type="button" class="buttons">Приложения</button></li>
-                    <li><button type="button" class="buttons">Дизайн</button></li>
-                    <li><button type="button" class="buttons">Маркетинг</button></li>
+                <h1 class="portfolio__title">Портфолио</h1>
+                <ul class="lists portfolio__btn-list">
+                    <li><button type="button" class="portfolio__button">Все</button></li>
+                    <li><button type="button" class="portfolio__button">Веб-сайты</button></li>
+                    <li><button type="button" class="portfolio__button">Приложения</button></li>
+                    <li><button type="button" class="portfolio__button">Дизайн</button></li>
+                    <li><button type="button" class="portfolio__button">Маркетинг</button></li>
                 </ul>
-                <!-- Works -->
-                <ul class="works lists">
-                    <li class="works-item">
-                        <img src="./images/imghw2004.jpg" alt="экран ноутбука" />
-                        <h2 class="works-title">Технокряк</h2>
-                        <p class="works-text">Веб-сайт</p>
+                <!-- Works ---------------------------------------------->
+                <ul class="lists works">
+                    <li class="works__item">
+                        <img src="./images/imghw2004.jpg" alt="экран ноутбука" width="370px"/>
+                        <h2 class="works__title">Технокряк</h2>
+                        <p class="par works__text">Веб-сайт</p>
                     </li>
-                    <li class="works-item">
-                        <img src="./images/imghw2009.jpg" alt="баскетболисты" />
-                        <h2 class="works-title">
+                    <li class="wworks__item">
+                        <img src="./images/imghw2009.jpg" alt="баскетболисты" width="370px"/>
+                        <h2 class="works__title">
                             Постер <span lang="en">New Orlean vs Golden Star</span>
                         </h2>
-                        <p class="works-text">Дизайн</p>
+                        <p class="par works__text">Дизайн</p>
                     </li>
-                    <li class="works-item">
-                        <img src="./images/imghw2008.jpg" alt="логотип ресторана" />
-                        <h2 class="works-title">Ресторан <span lang="en">Seafood</span></h2>
-                        <p class="works-text">Приложение</p>
+                    <li class="works__item">
+                        <img src="./images/imghw2008.jpg" alt="логотип ресторана" width="370px"/>
+                        <h2 class="works__title">Ресторан <span lang="en">Seafood</span></h2>
+                        <p class="par works__text">Приложение</p>
                     </li>
-                    <li class="works-item">
-                        <img class="works-img" src="./images/imghw2007.jpg" alt="наушники" />
-                        <h2 class="works-title">Проект <span lang="en">Prime</span></h2>
-                        <p class="works-text">Маркетинг</p>
+                    <li class="works__item">
+                        <img class="works-img" src="./images/imghw2007.jpg" alt="наушники" width="370px"/>
+                        <h2 class="works__title">Проект <span lang="en">Prime</span></h2>
+                        <p class="par works__text">Маркетинг</p>
                     </li>
-                    <li class="works-item">
-                        <img src="./images/imghw2006.jpg" alt="коробки" />
-                        <h2 class="works-title">Проект <span lang="en">Boxes</span></h2>
-                        <p class="works-text">Приложение</p>
+                    <li class="works__item">
+                        <img src="./images/imghw2006.jpg" alt="коробки" width="370px"/>
+                        <h2 class="works__title">Проект <span lang="en">Boxes</span></h2>
+                        <p class="par works__text">Приложение</p>
                     </li>
-                    <li class="works-item">
-                        <img src="./images/imghw2005.jpg" alt="экран копьютера" />
-                        <h2 class="works-title" lang="en">Inspiration has no Borders</h2>
-                        <p class="works-text">Веб-сайт</p>
+                    <li class="works__item">
+                        <img src="./images/imghw2005.jpg" alt="экран копьютера" width="370px"/>
+                        <h2 class="works__title" lang="en">Inspiration has no Borders</h2>
+                        <p class="par works__text">Веб-сайт</p>
                     </li>
-                    <li class="works-item">
-                        <img src="./images/imghw2001.jpg" alt="журнал" />
-                        <h2 class="works-title">Издание <span lang="en">Limited Edition</span></h2>
-                        <p class="works-text">Дизайн</p>
+                    <li class="works__item">
+                        <img src="./images/imghw2001.jpg" alt="журнал" width="370px"/>
+                        <h2 class="works__title">Издание <span lang="en">Limited Edition</span></h2>
+                        <p class="par works__text">Дизайн</p>
                     </li>
-                    <li class="works-item">
-                        <img src="./images/imghw2002.jpg" alt="ценник" />
-                        <h2 class="works-title">Проект <span lang="en">LAB</span></h2>
-                        <p class="works-text">Маркетинг</p>
+                    <li class="works__item">
+                        <img src="./images/imghw2002.jpg" alt="ценник" width="370px"/>
+                        <h2 class="works__title">Проект <span lang="en">LAB</span></h2>
+                        <p class="par works__text">Маркетинг</p>
                     </li>
-                    <li class="works-item">
-                        <img src="./images/imghw2003.jpg" alt="экран ноутбука" />
-                        <h2 class="works-title" lang="en">Growing Business</h2>
-                        <p class="works-text">Приложение</p>
+                    <li class="works__item">
+                        <img src="./images/imghw2003.jpg" alt="экран ноутбука" width="370px"/>
+                        <h2 class="works__title" lang="en">Growing Business</h2>
+                        <p class="par works__text">Приложение</p>
                     </li>
                 </ul>
             </section>
         </main>
-        <!--Footer-->
+        <!--Footer------------------------------------------------------->
         <footer class="footer">
-            <a href="./" class="links footer-hover"
-                ><span class="footer-web">Web</span><span class="footer-studio">studio</span></a
-            >
+            <a href="./" class="links logo-link footer__logo">
+                <span class="logo-web">Web</span><span class="footer-studio">studio</span>
+            </a>
             <address>
                 <ul class="lists">
                     <li>
-                        <a href="" class="links address footer-hover"
-                            >г. Киев, пр-т Леси Украинки, 26</a
-                        >
+                        <a href="" class="links address footer__contact footer__contact-adress">г. Киев, пр-т Леси Украинки,
+                            26</a>
                     </li>
                     <li>
-                        <a href="mailto:info@example.com" class="links footer-contact footer-hover"
-                            >info@example.com</a
-                        >
+                        <a href="mailto:info@example.com" class="links footer__contact">info@example.com</a>
                     </li>
                     <li>
-                        <a href="tel:+380961111111" class="links footer-contact footer-hover"
-                            >+380961111111</a
-                        >
+                        <a href="tel:+380961111111" class="links footer__contact">+380961111111</a>
                     </li>
                 </ul>
             </address>
