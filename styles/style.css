@@ -135,6 +135,7 @@ body {
     color: var(--white-color);
     padding: 10px 32px;
     cursor: pointer;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 188%;
@@ -258,6 +259,7 @@ body {
     background: var(--grey-color);
     border-radius: 4px;
     border: none;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 162%;
